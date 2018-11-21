@@ -1,8 +1,7 @@
-# online-cms-for-schools
 <h4>Online Content Management System For Schools</h4>
-# Description
-<p>This is a java based web application that helps to manage several comman activites in a school</p>
-<p>Technologies-> jsp&servlet, jquery, html, css, bootstrap</p>
+<h5>Description</h5>
+<p>This is a Java based web application that helps to manage several comman activites in a school</p>
+<p><b>Technologies</b> Jsp & Servlet, JQuery, html, css, bootstrap</p>
 <h3>Modules</h3>
 <ul>
 <li>Principle Module (Admin) </li>
