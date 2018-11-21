@@ -1,5 +1,5 @@
-# schoolsys
-<h4>Online School Management System</h4>
+# online-cms-for-schools
+<h4>Online Content Management System For Schools</h4>
 # Description
 <p>This is a java based web application that helps to manage several comman activites in a school</p>
 <h3>Modules</h3>
