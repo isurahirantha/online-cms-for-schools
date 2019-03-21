@@ -12,11 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.sms.dao.AdminQueries;
 import com.sms.dao.CommanQueries;
 import com.sms.dao.QueryFactory;
-import com.sms.dao.StudentQueries;
-import com.sms.dao.TeacherQueries;
+
 import com.sms.jsp.utils.Functions;
 import com.sms.model.LoginBean;
 import com.sms.model.Marks;

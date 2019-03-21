@@ -10,9 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
-import com.oracle.jrockit.jfr.ContentType;
 import com.sms.dao.QueryFactory;
 import com.sms.model.Marks;
 import com.sms.model.Notices;

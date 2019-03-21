@@ -1,7 +1,6 @@
 package com.sms.controller;
 
 import java.io.IOException;
-import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.sms.dao.QueryFactory;
-import com.sms.dao.StudentQueries;
 import com.sms.dao.TeacherQueries;
 import com.sms.jsp.utils.Functions;
 import com.sms.model.LoginBean;
@@ -54,6 +52,7 @@ public class TeacherController extends HttpServlet {
 				rd.forward(request, response);
 			}else if(action.equalsIgnoreCase("del"))
 			{
+				@SuppressWarnings("unused")
 				String uri ="";
 				int numOfrow = 0;
 				String student_id = request.getParameter("student_id");

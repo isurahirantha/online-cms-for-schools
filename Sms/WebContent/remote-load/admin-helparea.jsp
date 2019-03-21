@@ -2,7 +2,7 @@
 <!--sTARTS hELP aREA-->
 <div class="helpclass">
       <h1>Welcome to Administrator's Area</h1>
-      <p>Administrators are able to Manage all the students & Teachers records such as add new one, delete record, update information, view information and students' examinations marks.</p>
+      <p>Administrators are able to Manage all the students and Teachers records such as add new one, delete record, update information, view information and students' examinations marks.</p>
       <hr>
       <h2>Need a Help!</h2>
       <ul class="nav nav-tabs">

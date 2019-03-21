@@ -44,14 +44,12 @@ public class Test {
 	
 	
 		
+		@SuppressWarnings("unused")
 		List<Student> sList = new ArrayList<Student>();
 		sList = QueryFactory.getStudentQueries().selectQuery();
 		//request.setAttribute("studList", sList);
 		
-		for(Student s : sList){
-			//System.out.println(s.toString());
-			//System.out.println(s.getUser_id());
-		}
+	
 		
 		List<Teacher> tList = new ArrayList<Teacher>();
 		tList = QueryFactory.TeacherQueries().selectTeachers();

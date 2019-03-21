@@ -11,11 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.sms.dao.Dao;
-import com.sms.dao.DaoFactory;
-import com.sms.dao.Queries;
 import com.sms.dao.QueryFactory;
-import com.sms.dao.StudentQueries;
 import com.sms.jsp.utils.Functions;
 import com.sms.model.LoginBean;
 import com.sms.model.Marks;
@@ -65,7 +61,7 @@ public class StudentController extends HttpServlet {
 				
 			}else if(action.equalsIgnoreCase("del"))
 			{
-				String uri ="";
+				//String uri ="";
 				int numOfrow = 0;
 				String student_id = request.getParameter("student_id");
 				
@@ -102,6 +98,7 @@ public class StudentController extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		@SuppressWarnings("unused")
 		int numOfRows = 0 ;
 		String post ="";
 		

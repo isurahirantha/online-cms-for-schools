@@ -1,7 +1,5 @@
 package com.sms.dao;
 
-import com.sms.model.LoginBean;
-
 public class QueryFactory {
 	public static StudentQueries getStudentQueries(){
 		return new StudentQueries();

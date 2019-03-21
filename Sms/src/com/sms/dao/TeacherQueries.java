@@ -8,8 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.sms.Db.DBclass;
-import com.sms.jsp.utils.Functions;
-import com.sms.model.Student;
 import com.sms.model.Teacher;
 
 public class TeacherQueries {

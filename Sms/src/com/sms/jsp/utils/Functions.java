@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.sms.dao.QueryFactory;
 import com.sms.dao.CommanQueries;
+import com.sms.dao.QueryFactory;
 import com.sms.model.LoginBean;
 import com.sms.model.Notices;
 
@@ -86,7 +86,9 @@ public class Functions {
 	    int year = Calendar.getInstance().get(Calendar.YEAR);
 	    //int year = 17;
 	    String preText =null;
-	    String autoGenId=null;
+	    
+	    @SuppressWarnings("unused")
+		String autoGenId=null;
 	    if(usertype.equals("student")){
 		    	preText = "sms/std/"; 
 		    }else if(usertype.equals("teacher")){
@@ -107,6 +109,8 @@ public class Functions {
 		HttpSession ses = request.getSession();
 		LoginBean  uBean  = new LoginBean();
 		String fullname ="";
+		
+		@SuppressWarnings("unused")
 		String userid= "";
 		if(request.getSession().getAttribute("User-ID")!=null){
 		String u_id = ses.getAttribute("User-ID").toString();

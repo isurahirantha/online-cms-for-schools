@@ -13,9 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.sms.dao.QueryFactory;
 import com.sms.jsp.utils.Functions;
-import com.sms.model.LoginBean;
 import com.sms.model.Notices;
-import com.sms.model.Student;
 
 /**
  * Servlet implementation class NoticeController
